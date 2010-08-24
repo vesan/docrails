@@ -65,7 +65,7 @@ module ActiveRecord
   # When <tt>:autosave</tt> is not declared new children are saved when their parent is saved:
   #
   #   class Post
-  #     has_many :comments # :autosave option is no declared
+  #     has_many :comments # :autosave option is not declared
   #   end
   #
   #   post = Post.new(:title => 'ruby rocks')
